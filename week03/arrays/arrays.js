@@ -6,8 +6,7 @@ let myList = newArray.map((item) => {
     return `<li>${item}</li>`
 });
 
-let ul = document.querySelector('#myList')
-ul.innerHTML = myList.join();
+document.querySelector('#myList').innerHTML = myList.join();
 
 
 let otherArray = ['A', 'B', 'A'];
