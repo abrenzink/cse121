@@ -1,6 +1,9 @@
 /* HTML Selectors */
 article {
     margin: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 body {
